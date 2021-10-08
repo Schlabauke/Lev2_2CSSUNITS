@@ -1,0 +1,26 @@
+/* 
+Verwende vw und vh Einheiten um das Bild über den ganzen Bildschirm auszudehnen
+Zentriere das Bild mit Hilfe von vw und vh Einheiten
+Zentriere die Headline und gib ihr eine Hintergrundfarbe und eine Schriftgröße
+Wichtig bei dieser Übung ist, dass die Seite nicht scrollbar ist!
+ */
+ body {
+     background-image: url("../IMG/universe.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;     
+     width:99vw;
+     height:99vh;
+
+
+ }
+ h3 {
+     text-align: center;
+     background-color:midnightblue;
+     color:#fff;
+     font-size: 2em;
+     opacity: 0.6;
+     width: 98%;
+     margin: 0 auto;
+     padding: 2vh 0;
+ }
